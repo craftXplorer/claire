@@ -1,0 +1,16 @@
+{
+  "1118271357931753504": {
+    "message": "Test",
+    "channel": "1127587649046200350",
+    "title": "Hi",
+    "thumbnail": null,
+    "imageUrl": null
+  },
+  "1256562545242669066": {
+    "message": "Habe viel Spaß bei **{servername}**\n{user}!",
+    "channel": "1256566773889634355",
+    "title": "Schön dass du da bist, {username}",
+    "thumbnail": "https://cdn.discordapp.com/icons/1256562545242669066/c3a3e38003b26aaae178494e0bcba10a.png",
+    "imageUrl": null
+  }
+}
