@@ -35,8 +35,6 @@ const client = new Client({
 });
 
 const TOKEN = process.env.DISCORD_TOKEN;
-console.log("Using Discord token:", TOKEN); // Only for debugging in non-production environments
-
 const CLIENT_ID = '1245736150270873690';
 const GUILD_IDS = [process.env.GUILD_IDS];
 
