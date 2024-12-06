@@ -4,11 +4,9 @@ jobs:
     runs-on: ubuntu-latest
     container: node:18
     steps:
-      - run: node --version
-      - run: npm --version
       - uses: actions/checkout@v3
       - run: npm install
-      - run: node index.js
-      - run: echo "DISCORD_TOKEN is $DISCORD_TOKEN"
+      - name: Run Node.js Script
+        run: node index.js
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
