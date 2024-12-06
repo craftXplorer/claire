@@ -1,1 +1,5 @@
-{"dependencies":{"@discordjs/rest":"^2.3.0","axios":"^1.7.2","cron":"^3.1.7","discord-api-types":"^0.37.91","discord.js":"^14.15.3","dotenv":"^16.4.5","dotenv-expand":"^11.0.6","express":"^4.19.2","fs":"^0.0.1-security","meklog":"^1.0.2","ollama":"^0.5.1","path":"^0.12.7","uuid":"^10.0.0"}}
+{
+  "dependencies": {"@discordjs/rest":"^2.3.0","axios":"^1.7.2","cron":"^3.1.7","discord-api-types":"^0.37.91","discord.js":"^14.15.3","dotenv":"^16.4.5","dotenv-expand":"^11.0.6","express":"^4.19.2","fs":"^0.0.1-security","meklog":"^1.0.2","ollama":"^0.5.1","path":"^0.12.7","uuid":"^10.0.0"}
+  "name": "claire"
+  "main": "index.js"
+}
