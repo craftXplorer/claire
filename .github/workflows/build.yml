@@ -1,4 +1,8 @@
-on: workflow_dispatch
+on:
+  workflow_dispatch: # Allows manual trigger
+  schedule: # Schedules the workflow to run every 5 hours
+    - cron: "0 */5 * * *" # Cron expression for every 5 hours
+
 jobs:
   build-node:
     runs-on: ubuntu-latest
