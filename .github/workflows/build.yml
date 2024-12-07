@@ -1,7 +1,11 @@
 on:
   workflow_dispatch: # Allows manual trigger
-  schedule: # Schedules the workflow to run every 5 hours
-    - cron: "0 */5 * * *" # Cron expression for every 5 hours
+  schedule: # Runs every 5 hours
+    - cron: "0 */5 * * *"
+
+concurrency:
+  group: ${{ github.workflow }} # Ensures only one instance of this workflow runs
+  cancel-in-progress: false # Keeps the running workflow active
 
 jobs:
   build-node:
