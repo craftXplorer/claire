@@ -88,7 +88,7 @@ client.once('ready', () => {
             }],
             status: 'idle'
         });
-    }, 20000); // Change presence every 20 seconds
+    }, 300000); // Change presence every 5 Minutes (300 secs)
 
     client.application.commands.set([]);
 
