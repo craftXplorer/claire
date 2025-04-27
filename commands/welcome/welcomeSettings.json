@@ -9,7 +9,7 @@
   "1366018268002910228": {
     "message": "Wir freuen uns, dich hier zu sehen! Bitte melde dich zuerst in {#1348769675550523574} an, den Rest erledigen wir.",
     "channel": "1256566773889634355",
-    "title": "Willkommen auf **{servername}**, {username}!",
+    "title": "Willkommen bei **{servername}**, {username}!",
     "thumbnail": "{avatar}",
     "imageUrl": null
   }
